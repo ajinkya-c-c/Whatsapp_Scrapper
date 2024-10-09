@@ -1,0 +1,44 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+
+# Electron specific
+*.asar
+*.app
+*.exe
+*.dmg
+*.deb
+*.snap
+*.rpm
+
+# Cache and auth data from whatsapp-web.js
+.wwebjs_cache/
+.wwebjs_auth/
+
+# Compiled files
+*.o
+*.out
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Environment variables
+.env
+
+# Optional lock files
+package-lock.json
+yarn.lock
